@@ -9,7 +9,7 @@ const App = () => {
     setNum(num + 1);
   };
 
-  const onClickFaceChane = () => {
+  const onClickFaceChange = () => {
     setFace(!face);
   };
 
@@ -31,7 +31,7 @@ const App = () => {
       <ColorfulMessage color="pink">元気です！</ColorfulMessage>
       <button onClick={onClickCountUp}>カウントアップ</button>
       <br />
-      <button onClick={onClickFaceChane}>on/off</button>
+      <button onClick={onClickFaceChange}>on/off</button>
       <p>{num}</p>
       {face && <p>^^</p>}
     </>
